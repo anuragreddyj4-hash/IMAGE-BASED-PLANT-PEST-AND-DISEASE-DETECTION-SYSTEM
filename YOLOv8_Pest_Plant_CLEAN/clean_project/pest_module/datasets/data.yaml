@@ -1,0 +1,13 @@
+path: pest_module/datasets   # root dataset directory (relative to project root)
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 3
+names:
+  - aphid
+  - fruit fly
+  - scale_insect
+
+# Source: https://universe.roboflow.com/sample-n5l88/pest-detection-and-counter/dataset/1
+# License: CC BY 4.0
